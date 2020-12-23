@@ -18,9 +18,9 @@
                 <!-- <a href="Stats.html" class="nav_text">Stats</a>
                 <a href="Profile.html" class="nav_text">Profile</a> -->
             </nav>
-            <!-- <button class="menu_button" type="button">
+            <button class="menu_button" type="button">
                 <span class="menu_button_items" id="Add_1">Add</span>
-            </button> -->
+            </button>
             </div>
         </header>
     </div>
@@ -47,10 +47,10 @@
             <div class="groupGridStage"> 
                 <li class="groupName1Stage">Hit the gym</li>
                 <li class="groupName1Stage">3</li>
-                <li class="groupName1Stage">3</li>
-                <li class="groupName1Stage">0</li>
-                <li class="groupName1Stage">0</li>
-                <li class="groupName1Stage">9</li>
+                <li class="groupName1Stage" id="winGroup">3</li>
+                <li class="groupName1Stage" id="loseGroup">0</li>
+                <li class="groupName1Stage" id="drawGroup">0</li>
+                <li class="groupName1Stage" id="pointGroup">9</li>
             </div>
             <div class="groupGridStage"> 
                 <li class="groupName1Stage">Hit the gym</li>
@@ -104,6 +104,12 @@
             </div>
         </ul>
         </div>
+
+        <div id="mainDiv">
+            <span id="numberPlace">0</span>
+            <button class="button_plus_minus" id="plus">+</button>
+            <button class="button_plus_minus" id="minus">-</button>
+        </div>
     </div>
     <div class="delete">
         <button class="menu_button" type="button" id="Change_4">
@@ -115,6 +121,6 @@
     <footer>
 
     </footer>
-    <script src="script/script.js"></script>
+    <script src="script/GropuStage.js"></script>
 </body>
 </html>

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
 
 body {
-    background: url(images/curls.png); 
+    background: url(../images/curls.png); 
     color: #FFF;
     font-family: 'Poppins', sans-serif;
 };
@@ -88,17 +88,17 @@ a {
 }
 
 .dota_2 {
-    background: url(images/Tournaments/Dota_2.jpg); 
+    background: url(../images/Tournaments/Dota_2.jpg); 
     background-size: cover;
 }
 
 .cs_go {
-    background: url(images/Tournaments/CS_GO.jpg); 
+    background: url(../images/Tournaments/CS_GO.jpg); 
     background-size: cover;
 }
 
 .among_us {
-    background: url(images/Tournaments/Among_Us.jpg); 
+    background: url(../images/Tournaments/Among_Us.jpg); 
     background-size: cover;
 }
 
@@ -115,6 +115,7 @@ a {
     padding-top: 20px;
     padding-bottom: 20px;
     margin-top: 20px;
+    margin-right: 35px;
 }
 
 .groupGridBorder {
@@ -208,6 +209,22 @@ select {
 }
 
 .menu_button:hover {
+    background-color: #bbb;
+}
+
+.button_plus_minus {
+    padding: 10px;
+    width: 50px;
+    background: #d9d9d9;
+    color: #555;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+}
+
+.button_plus_minus:hover {
     background-color: #bbb;
 }
 
@@ -341,21 +358,21 @@ ul {
 .dota_2_box {
     height: 100px;
     width: 100px;
-    background: url(images/Tournaments/Dota_2.jpg); 
+    background: url(../images/Tournaments/Dota_2.jpg); 
     background-size: cover;
 }
 
 .cs_go_box {
     height: 100px;
     width: 100px;
-    background: url(images/Tournaments/CS_GO.jpg); 
+    background: url(../images/Tournaments/CS_GO.jpg); 
     background-size: cover;
 }
 
 .among_us_box {
     height: 100px;
     width: 100px;
-    background: url(images/Tournaments/Among_Us.jpg); 
+    background: url(../images/Tournaments/Among_Us.jpg); 
     background-size: cover;
 }
 /*-------------------------------------------------------------*/
