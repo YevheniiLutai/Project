@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Creat Tournament</title>
+</head>
+<body>
+<!--================================ /Top/ ===============================-->
+    <div class="container">
+        <header class="header">
+            <div class="under_line">
+            <a href=""><img class="logo" src="" alt=""></a>
+            <nav class="nav_menu">
+                <a href="main.html" class="nav_text">Home</a>
+                <a href="Tournamts.html" class="nav_text">Tournaments</a>
+                <!-- <a href="Stats.html" class="nav_text">Stats</a>
+                <a href="Profile.html" class="nav_text">Profile</a> -->
+            </nav>
+            <!-- <button class="menu_button" type="button">
+                <span class="menu_button_items">Menu</span>
+            </button> -->
+            </div>
+        </header>
+    </div>
+<!--======================================================================-->
+
+<!--============================ /Creat Tour/ ============================-->
+<div class="creatTouritems">
+<div class="inputText">
+    <p class="addText">Tournament name:</p>
+    <p class="addText">Have many people play:</p>
+    <p class="addText">Choose type of tournament:</p>
+    <p class="addText">When tournament start:</p>
+</div>
+<div class="inputPlaceholder">
+    <p></p><input type="text" size="40" id="tournamentName"></p>
+    <p><input type="text" size="40" id="tournamentName"></p>
+    <p><select name="tornament" id="tournamentType">
+        <option value="classic">Classic Grid</option>
+        <option value="grid">Grid</option>
+        <option value="some">Some</option>
+    </select></p>
+    <p><input type="date" id="dateOfStart" name="dateOfStart" size></p>
+</div>
+</div>
+    <p class="addText">Tournament name:
+        <input type="text" size="40" id="tournamentName">
+    </p>
+    <p class="addText">Choose type of tournament:
+    <select name="tornament" id="tournamentType">
+        <option value="classic">Classic Grid</option>
+        <option value="grid">Grid</option>
+        <option value="some">Some</option>
+    </select>
+    </p>
+    <p class="addText">When tournament start:
+        <input type="date" id="dateOfStart" name="dateOfStart" size>
+    </p class="addText"> 
+    <p class="addText">Have many people play:
+        <input type="text" size="40" id="tournamentNumberPlayers">
+    </p>
+<!--======================================================================-->
+
+<!--============ /Checkbox with img, for future, need update/ ============-->
+    <p class="addText"> Select game:
+    <ul>
+    <li><input type="checkbox" id="cb1" />
+      <label for="cb1"><img src="images/Tournaments/Dota_2.jpg" class="dota_2_box"/></label>
+    </li>
+    <li><input type="checkbox" id="cb2" />
+      <label for="cb2"><img src="images/Tournaments/CS_GO.jpg"  class="cs_go_box"/></label>
+    </li>
+    <li><input type="checkbox" id="cb3" />
+      <label for="cb3"><img src="images/Tournaments/Among_Us.jpg" class="among_us_box"  /></label>
+    </li>
+    </ul>
+    </p>
+<!--======================================================================-->
+<!--============================== /Button/ ==============================-->
+    <p>
+        <button class='creatTour_button' id="creatTour">Create tournamet</button>
+    </p>
+<!--======================================================================-->
+
+<!--============================== /Footer/ ==============================-->
+    <footer>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

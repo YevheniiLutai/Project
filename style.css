@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+body {
+    background: url(images/curls.png); 
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+};
+
+a {
+    text-decoration: none;
+    color: #DCDCDC;
+}
+.under_line {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #6c7279;
+}
+
+/*--------------******** Navigation menu ********-------------------*/
+.nav_menu {
+    display: flex;
+    padding: 30px 0;
+    margin: 0 -30px;
+}
+
+.nav_text {
+    margin: 0 25px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav_text:hover {
+    text-decoration: underline;
+}
+/*-------------------------------------------------------------*/
+
+/*----------------******** Tour Items ********--------------------*/
+.tournamets {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tourItems {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tourText {
+    width: 100%;
+    text-align: center;
+}
+
+.tourText a {
+    text-decoration: none;
+    color: #DCDCDC;
+}
+.tourText a:hover {
+    text-decoration: underline;
+}
+.tourBox {
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    height: 320px;
+}
+.tourBox a {
+    text-decoration: none;
+    color: #DCDCDC;
+}
+.tourBoxText {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.dota_2 {
+    background: url(images/Tournaments/Dota_2.jpg); 
+    background-size: cover;
+}
+
+.cs_go {
+    background: url(images/Tournaments/CS_GO.jpg); 
+    background-size: cover;
+}
+
+.among_us {
+    background: url(images/Tournaments/Among_Us.jpg); 
+    background-size: cover;
+}
+
+.tourBoxShadow {
+    background-color: black;
+    opacity: 0.25;
+}
+
+.listGridBorder {
+    border: 1px solid white;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.groupGridBorder {
+    border: 1px solid white;
+    list-style: none;
+    display: flex;
+    justify-content: ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+/*-------------------------------------------------------------*/
+
+/*----------------******** Group with Stage ********----------------*/
+.GroupStage {
+    display: flex;
+    justify-content: space-around;
+}
+.groupGridStage {
+    border: 1px solid white;
+    list-style: none;
+    display: flex;
+    
+    justify-content: space-around;
+
+    border-right: 1px solid white;
+}
+
+.groupNameStage {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid white;
+}
+
+.groupName1Stage {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid white;
+}
+/*-------------------------------------------------------------*/
+
+/*----------------******** Style the input ********----------------*/
+input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 25%;
+    padding: 10px;
+  
+    font-size: 16px;
+  }
+
+.addText {
+    font-size: 30px;
+}
+
+select {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 25%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.inputText {
+
+}
+
+.inputplaceholder {
+
+}
+
+.creatTouritems {
+    display: flex;
+    justify-items: center;
+}
+/*-------------------------------------------------------------*/
+
+/*----------------******** Button style ********----------------*/
+.menu_button {
+    padding: 10px;
+    width: 100px;
+    background: #d9d9d9;
+    color: #555;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+}
+
+.menu_button:hover {
+    background-color: #bbb;
+}
+
+.add_button {
+    padding: 10px;
+    width: 100px;
+    background: #d9d9d9;
+    color: #555;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+}
+
+.add_button:hover {
+    background-color: #bbb;
+}
+
+.add {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.delete_button {
+    padding: 10px;
+    width: 150px;
+    background: #d9d9d9;
+    color: #555;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+}
+
+.delete_button:hover {
+    background-color: #bbb;
+}
+
+.delete {
+    margin-top: 20px;
+    margin-left: 40px;  
+}
+
+.creatTour_button {
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+}
+  
+.creatTour_button:hover {
+    background-color: #bbb;
+}
+/*-------------------------------------------------------------*/
+
+/*----------------******** Style for checkbox input img ********----------------*/
+ul {
+    list-style-type: none;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  input[type="checkbox"][id^="cb"] {
+    display: none;
+  }
+  
+  label {
+    border: 1px solid #fff;
+    padding: 10px;
+    display: block;
+    position: relative;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  label:before {
+    background-color: white;
+    color: white;
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    border: 1px solid grey;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 28px;
+    transition-duration: 0.4s;
+    transform: scale(0);
+  }
+  
+  label {
+    height: 100px;
+    width: 100px;
+    transition-duration: 0.2s;
+    transform-origin: 50% 50%;
+  }
+  
+  :checked + label {
+    border-color: #ddd;
+  }
+  
+  :checked + label:before {
+    content: "✓";
+    background-color: grey;
+    transform: scale(1);
+  }
+  
+  :checked + label img {
+      height: 100px;
+      width: 100px;
+    transform: scale(0.9);
+    box-shadow: 0 0 5px #333;
+    z-index: -1;
+  }
+/*-------------------------------------------------------------*/
+
+/*----------------******** Image in Checkbox ********----------------*/ 
+.dota_2_box {
+    height: 100px;
+    width: 100px;
+    background: url(images/Tournaments/Dota_2.jpg); 
+    background-size: cover;
+}
+
+.cs_go_box {
+    height: 100px;
+    width: 100px;
+    background: url(images/Tournaments/CS_GO.jpg); 
+    background-size: cover;
+}
+
+.among_us_box {
+    height: 100px;
+    width: 100px;
+    background: url(images/Tournaments/Among_Us.jpg); 
+    background-size: cover;
+}
+/*-------------------------------------------------------------*/
+
+/*----------------******** FilePond Custom Styles ********----------------*/
+.filepond {
+	color: #4c4e53;
+}
+
+.filepond {
+	text-decoration-color: #babdc0;
+}
+
+.filepond {
+	border-radius: 2em;
+	background-color: #edf0f4;
+	height: 1em;
+}
+
+.filepond {
+	background-color: #595e68;
+}
+
+.filepond {
+	background-color: #7f8a9a;
+}
+/*-------------------------------------------------------------*/
+
